@@ -1,0 +1,20 @@
+{
+    "[vue]": {
+        "editor.insertSpaces": false,
+        "editor.autoClosingBrackets": "always",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "[scss]": {
+        "editor.insertSpaces": false,
+        "editor.autoClosingBrackets": "always",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    }
+}
