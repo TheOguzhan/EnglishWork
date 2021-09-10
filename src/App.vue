@@ -8,10 +8,14 @@ import Posts from "./components/Posts.vue";
 
 <template>
   <Navbar />
-  <main class="max-w-70 w-2/5 mx-auto">
+  <main class="md:w-2/5 sm:w-4/5 mx-auto overflow-x-hidden">
     <Profile />
     <Posts />
   </main>
+
+  <footer class="text-center my-6 w-full">
+    <a href="https://github.com/TheOguzhan/EnglishWork">Github</a>
+  </footer>
 </template>
 
 <style>

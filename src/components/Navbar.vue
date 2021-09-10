@@ -1,9 +1,31 @@
 <template>
-  <nav class="grid-cols-5 grid navbar-shadow h-14">
-    <div class="flex items-center justify-between col-start-2 col-span-3">
+  <nav class="md:grid-cols-5 sm:grid-cols-2 grid navbar-shadow h-14">
+    <div
+      class="
+        flex
+        items-center
+        md:justify-between
+        xl:justify-between
+        2xl:justify-between
+        md:col-start-2 md:col-span-3
+        sm:col-span-2
+        sm:justify-evenly
+        justify-evenly
+      "
+    >
       <img
         src="../assets/Instagram.svg"
-        class="bg-white h-12 w-auto float-right"
+        class="
+          bg-white
+          h-12
+          w-auto
+          float-right
+          hidden
+          xl:block
+          2xl:block
+          md:block
+          sm:hidden
+        "
       />
       <input
         class="outline-none bg-gray-100 text-center border-2 p-0.5"
